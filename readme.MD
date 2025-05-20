@@ -13,3 +13,8 @@ eksctl utils associate-iam-oidc-provider \
     --cluster $CLUSTER_NAME \
     --approve
 ```
+
+## update kubeconfig file for your cluster
+```
+aws eks update-kubeconfig --region $REGION_CODE --name $CLUSTER_NAME
+```
