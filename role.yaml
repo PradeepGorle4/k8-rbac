@@ -4,7 +4,7 @@ metadata:
   namespace: default
   name: default-trainee
 rules:
-- apiGroups: [""] # "" indicates the core API group.  apiGroups are v1, v2 etc..
+- apiGroups: ["*"] # "" indicates the core API group.  apiGroups are v1, v2 etc..
   resources: ["pods"]
   verbs: ["get", "watch", "list"]
 ---
